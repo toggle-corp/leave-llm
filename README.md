@@ -6,7 +6,7 @@ This project is a simple application of llm to parse information from leave requ
 
 1. Clone the repository.
 ```bash
-git clone -b newone https://github.com/sandeshit/summary-_tech.git
+git clone -b newone https://github.com/toggle-corp/summary-_tech.git
 cd summary-_tech
 ```
 

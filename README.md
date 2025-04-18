@@ -7,8 +7,9 @@ This project is a simple application of llm to parse information from leave requ
 1. Clone the repository.
 
 ```bash
-git clone -b newone https://github.com/toggle-corp/summary-_tech.git
-cd summary-_tech
+git clone https://github.com/toggle-corp/leave-llm.git
+cd leave-llm
+git checkout feat/leave-llm
 ```
 
 2. Build and run the Docker container:

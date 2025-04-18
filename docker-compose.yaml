@@ -1,0 +1,12 @@
+services:
+  llm_app:
+    build: .
+    volumes:
+      - .:/code
+    command: bash -c 'uvicorn app:app --host=0.0.0.0 --port=8000'
+    ports:
+      - "8000:8000"
+    restart: always
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+                                               # Ensure this points to your host IP

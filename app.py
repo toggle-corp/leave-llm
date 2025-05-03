@@ -20,4 +20,4 @@ async def home():
 async def create_item(item: Item):
     leave_requests = item.leave_request
     # return {"leave_request": item.leave_request}
-    return leave_request_parser.parse_dates(leave_requests)
+    return leave_request_parser.get_results(leave_requests)
